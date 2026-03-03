@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <Button android:text="Button" />
+
+        <TextView android:text="Table" />
+
+        <Button android:text="Button" />
+
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:text="Button"
+            android:layout_weight="1"/>
+
+        <CheckBox
+            android:text="Okay"
+            android:layout_weight="1"/>
+
+    </TableRow>
+    <TableRow>
+
+        <ImageButton
+            android:layout_height="match_parent"
+            android:contentDescription="Кнопка поиска"/>
+
+        <TextView android:text="Table" />
+
+        <Button android:text="Button" />
+
+    </TableRow>
+
+</TableLayout>
